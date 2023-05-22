@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"math"
 )
 
@@ -14,6 +15,7 @@ func calcular(r Circuito) float64 {
 }
 
 func main() {
-	r := Circuito{raio: 4}
-	calcular(r)
+	r := Circuito{raio: 5}
+	s := calcular(r)
+	fmt.Println(s)
 }
