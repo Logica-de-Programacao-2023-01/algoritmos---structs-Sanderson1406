@@ -9,10 +9,6 @@ type Animal struct {
 	som     string
 }
 
-/*func som(a Animal) string {
-	return a.som
-}*/
-
 func mudarson(a Animal, novoSom string) Animal {
 	a.som = novoSom
 	return a

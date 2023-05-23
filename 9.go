@@ -34,6 +34,6 @@ func main() {
 	}
 	r := remove(a, novaNota)
 	fmt.Println(r)
-	s := media(a)
+	s := float64(media(a))
 	fmt.Printf("A média de notas é: %2.f", s)
 }

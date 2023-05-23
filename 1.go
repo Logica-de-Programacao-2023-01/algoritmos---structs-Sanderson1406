@@ -15,7 +15,7 @@ func calcular(r Circuito) float64 {
 }
 
 func main() {
-	r := Circuito{raio: 5}
+	r := Circuito{raio: 5.7}
 	s := calcular(r)
 	fmt.Println(s)
 }

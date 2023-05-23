@@ -13,7 +13,7 @@ func calcula(t Triangulo) float64 {
 }
 
 func main() {
-	r := Triangulo{base: 5, altura: 12}
+	r := Triangulo{base: 5.4, altura: 9.7}
 	s := calcula(r)
 	fmt.Println(s)
 }
